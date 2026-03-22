@@ -1,0 +1,1 @@
+"""Morning alarm automation package."""
