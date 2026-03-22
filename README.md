@@ -26,6 +26,28 @@
 uv sync
 ```
 
+## EXE化（Windows）
+
+### 1) ビルド
+
+```bash
+uv run pyinstaller morning_alarm.spec
+```
+
+ビルド成功後、実行ファイルは `dist/morning_alarm.exe` に生成されます。
+
+### 2) 実行
+
+```bash
+.\dist\morning_alarm.exe -s web117 -v 40 -r 15
+```
+
+ヘルプ表示:
+
+```bash
+.\dist\morning_alarm.exe --help
+```
+
 ## 実行方法
 
 ```bash
